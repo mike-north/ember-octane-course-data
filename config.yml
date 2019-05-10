@@ -17,3 +17,20 @@ before:
     title: Getting Started with GitHub
     body: introduction.md
     action_id: introduction_issue
+
+steps:
+  - title: Install your first GitHub Apps
+    description: Learn what GitHub Apps are and how to install them
+    event: issues.closed
+    link: '{{ repoUrl }}/issues/1'
+    actions:
+      - type: updateBranchProtection
+      - type: createPullRequest
+        title: Trigger the app
+        head: add-to-list
+        body: 02_trigger-wip.md
+        action_id: first_pr
+      - type: respond
+        with: 01_successful-close.md
+        data:
+          url: '%actions.first_pr.data.html_url%'
