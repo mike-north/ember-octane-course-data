@@ -8,3 +8,13 @@ tags:
   - frontend
   - ui
   - ember
+
+template:
+  name: ember-octane
+  repo: ember-octane
+
+before:
+  - type: createIssue
+    title: Getting Started with GitHub
+    body: introduction.md
+    action_id: introduction_issue
