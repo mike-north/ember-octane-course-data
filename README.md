@@ -6,7 +6,7 @@
 
 In this course, we'll start with raw HTML and CSS, and end up with lightning fast server-rendered [progressive web app](https://developers.google.com/web/progressive-web-apps/).
 
-<img align="right" width="70%" src="./assets/img/app.png">
+![](./assets/img/app.png)
 
 Along the way, we'll get hands on experience with many of the important aspects of Ember Octane, including:
 
