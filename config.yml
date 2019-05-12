@@ -10,7 +10,7 @@ tags:
 
 template:
   name: ember-octane
-  repo: ember-octane
+  repo: lab.ember-octane
 
 before:
   - type: createIssue
