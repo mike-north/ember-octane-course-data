@@ -9,7 +9,7 @@ tags:
   - ember
 
 template:
-  name: ember-octane
+  name: learn-ember-octane
   repo: ember-octane-workshop
 
 before:
