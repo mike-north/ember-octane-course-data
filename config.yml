@@ -30,6 +30,6 @@ steps:
         right: closed
       - type: createPullRequest
         title: Getting Started
-        body: introduction.md
+        body: 0.00-introduction.md
         head: setup
         action_id: setup_pr
