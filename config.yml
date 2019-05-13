@@ -15,7 +15,7 @@ template:
 before:
   - type: createIssue
     title: Getting Started with GitHub
-    body: introduction.md
+    body: 0.00-introduction.md
     action_id: introduction_issue
 
 steps:
